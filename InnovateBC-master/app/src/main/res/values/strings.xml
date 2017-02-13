@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="app_name">Innovation</string>
+    <string name="first">First</string>
+    <string name="last">Last</string>
+    <string name="prepend">Prepend</string>
+    <string-array name="Projects">
+        <item>Alternative Education - Dispelling Myth</item>
+        <item>An Innovative Primary French Immersion Report Card</item>
+        <item>Assessment And How We Communicate Student Learning Alongside The Shifting Curriculum</item>
+        <item>Assessment, Grading And Reporting Field Test</item>
+        <item>Authentic Science Partnership: Inquire, Research, Experience (ASPIRE)</item>
+        <item>Communicating Student Assessment</item>
+        <item>Communicating Student Learning</item>
+        <item>Communicating Student Learning Part 2</item>
+        <item>Developing competencies</item>
+        <item>Dynamic Science Learning Through Student Choice</item>
+        <item>Elementary Math Innovation Project</item>
+        <item>First Nations Outdoor Education Program</item>
+        <item>First Peoples</item>
+        <item>Going Gradeless</item>
+        <item>Inquiry in the Early Learning Classroom</item>
+        <item>Inquiry-based, Interdisciplinary, Competency-based Graduation Structure: Moving Beyond Translation to Transformation</item>
+        <item>InspirED</item>
+        <item>John Oliver STEM Program</item>
+        <item>Learning In Depth</item>
+        <item>Making Room for Innovation</item>
+        <item>Mobile Makerspace</item>
+        <item>Personalized Learning</item>
+        <item>Re-Designing Assessment in a Middle School</item>
+        <item>Re-Storying Canadian History: The Interdependence of Creative and Critical Thinking</item>
+        <item>Sa-Hali Family of Schools</item>
+        <item>Teaching and learning strategies</item>
+        <item>Templeton STEM Program</item>
+        <item>The ins-PI-re Project</item>
+        <item>The Multi-Grade Approach to Learning</item>
+        <item>Using a Module Approach for Teaching and Learning</item>
+    </string-array>
+    <string name="title_template_step">Project <xliff:g id="step_number">%1$d</xliff:g>: Lorem Ipsum</string>
+
+</resources>

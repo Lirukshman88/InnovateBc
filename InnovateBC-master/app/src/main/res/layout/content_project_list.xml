@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/content_project"
+    android:gravity="center_horizontal"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/my_toolbar"
+        android:orientation="vertical"
+        android:background="@drawable/aboriginal_learning_cultural_development"
+        android:weightSum="4"
+        android:backgroundTint="#70000000"
+        android:backgroundTintMode="src_over">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="0.68"
+            android:padding="50dp"
+            android:id="@+id/picturelayout">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/product"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:text="BC Innovation Project"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:id="@+id/contentlayout">
+
+            <View
+                android:id="@+id/divide"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#c9c9c9" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="20dp"
+                android:paddingTop="20dp"
+                android:weightSum="4">
+
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/locationpoint"
+                    android:src="@drawable/location_point_dark"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/productSchools"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_weight="3"
+                    android:textSize="18sp"
+                    android:textColor="#fff"
+                    android:text=" Burnaby South Secondary Schools"/>
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divide1"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#c9c9c9" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/productDescription"
+                android:textSize="14sp"
+                android:textColor="#fff"
+                android:gravity="center_vertical"
+                android:padding="30dp"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. \n\nSed vestibulum vehicula magna non pretium. Nulla viverra risus ac purus eleifend, id tincidunt sem venenatis. \nFusce mattis diam lorem, non auctor lacus fringilla vitae. Proin volutpat hendrerit euismod. Nulla fermentum bibendum aliquet.\n\n In eget purus ac magna auctor tincidunt.\n\n Aliquam semper nibh ac nulla lobortis scelerisque."/>
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/divide2"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#c9c9c9" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:background="#bb424242"
+            android:layout_weight="1"
+            android:paddingTop="30dp"
+            android:paddingBottom="30dp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/contact"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/productContacts"
+                android:textSize="14sp"
+                android:textColor="#fff"
+                android:gravity="center_vertical|end"
+                android:paddingEnd="30dp"
+                android:lineSpacingExtra="3dp"
+                android:layout_weight="2"
+                android:text="Jathavan \nWeaboo in the Making \nkrusnix@krusnix.com"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
